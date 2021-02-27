@@ -1,0 +1,261 @@
+@font-face {
+  font-family: "Gilroy";
+  src: url("../fonts/Gilroy-Regular.woff") format("woff");
+  font-weight: 400;
+}
+
+.navbar-uneke {
+  background-color: #333333;
+  font-family: "Gilroy";
+  font-size: 15px;
+  line-height: 18px;
+  min-height: 70px;
+}
+
+.navbar-uneke .nav-link {
+  color: #fcfcfc !important;
+}
+
+.dropdown-item.active,
+.dropdown-item:active {
+  background-color: #333333;
+  color: #fff;
+}
+
+.navbar-uneke div a:first-child {
+  margin-right: 5px;
+}
+
+.navbar-uneke div a:nth-child(2) {
+  margin-right: 98px;
+}
+
+.navbar-uneke-logo-img {
+  background: url("../img/nav-logo.png");
+  background-size: auto 33px;
+  background-position: 0px;
+  margin-top: 5px;
+  width: 33px;
+  height: 33px;
+}
+
+.navbar-uneke-logo-title {
+  background: url("../img/nav-logo.png");
+  background-size: auto 32px;
+  background-position: 65px 0px;
+  width: 65px;
+  height: 19px;
+}
+
+.uneke-search {
+  margin-right: 30px;
+}
+
+.uneke-search,
+.uneke-favorites {
+  cursor: pointer;
+}
+
+.uneke-head {
+  background: url("../img/darken/head.svg") no-repeat,
+    url("../img/head.jpeg") no-repeat;
+  background-size: cover;
+  min-height: 744px;
+}
+
+.social {
+  padding-top: 30px;
+  position: relative;
+  z-index: 1;
+}
+
+.social > svg {
+  cursor: pointer;
+}
+
+.social:first-child {
+  padding-top: 60px;
+}
+
+.uneke-head-text {
+  font-family: "Poppins", sans-serif;
+  position: relative;
+  min-height: 485px;
+  color: #fff;
+}
+
+.uneke-head-text .row div:first-child {
+  margin-bottom: 30px;
+}
+
+.sub-heading {
+  font-size: 20px;
+  font-weight: 700;
+}
+
+.hr-w,
+.hr-b {
+  border: 1px solid #fff;
+  box-sizing: content-box;
+  background-color: #fff;
+  position: relative;
+  margin: 20px 0px;
+  width: 40px;
+  height: 1px;
+}
+
+.hr-b {
+  border: 1px solid #000;
+  background-color: #000;
+  margin-top: 5px;
+}
+
+.uneke-text-1 {
+  line-height: 57px;
+  font-size: 38px;
+}
+
+.uneke-text-2 {
+  font-weight: 500;
+  font-size: 16px;
+}
+
+.btn-uneke {
+  padding: 8px 70px;
+  margin-top: 20px;
+  background-color: #fff;
+  border: 2px solid #fff;
+  border-radius: 0px;
+  color: #000;
+  font-size: 20px;
+  transition: 0.6s;
+}
+
+.btn-uneke:hover,
+.btn-uneke:focus,
+.btn-uneke:active {
+  background: transparent;
+  color: #fff;
+}
+
+#uneke-head-arrow {
+  position: relative;
+  cursor: pointer;
+  margin-top: 50px;
+}
+
+.uneke-columns {
+  background: url(../img/darken/columns.svg) no-repeat;
+  background-size: cover;
+  position: relative;
+  padding-top: 80px;
+  min-height: 899px;
+}
+
+.uneke-columns div div > img {
+  height: 270px;
+  width: auto;
+}
+
+.uneke-caption {
+  display: block;
+  font-size: 19px;
+  font-weight: 700;
+  margin: 20px 0 5px;
+}
+
+.uneke-advantages {
+  position: relative;
+  margin-top: -50px;
+  background: #333333;
+  font-size: 19px;
+  color: #fff;
+}
+
+.uneke-advantages > .row {
+  padding: 25px;
+}
+
+.uneke-advantages .row > div {
+  border-right: 1px solid #fff;
+}
+
+.uneke-advantages .row > div:last-child {
+  border: none;
+}
+
+.uneke-featured {
+  margin-top: 80px;
+  font-size: 19px;
+  font-weight: 700;
+}
+
+.img-bg {
+  background: #e1e1e1;
+  margin: 0 25px 15px 0;
+}
+
+.img-bg ~ div {
+  font-weight: 700;
+}
+
+.slide-img {
+  mix-blend-mode: darken;
+  padding: 25px;
+  height: 270px;
+  width: auto;
+}
+
+.slider-controls {
+  margin: 30px 0 80px;
+  cursor: pointer;
+}
+
+.slider-dots > div {
+  display: inline-block;
+  margin: 0 7px;
+  width: 13px;
+  height: 13px;
+  border-radius: 50%;
+  background: #c4c4c4;
+}
+
+#prev-slider-btn {
+  margin-right: 40px;
+}
+#next-slider-btn {
+  margin-left: 40px;
+}
+
+.tns-nav-active {
+  border: 2px solid #333333;
+  background: #ffffff !important;
+}
+
+@media (max-width: 992px) {
+  .navbar-uneke div a:nth-child(2) {
+    margin: 0;
+  }
+
+  .uneke-search,
+  .uneke-favorites {
+    padding-bottom: 10px;
+  }
+}
+
+@media (max-width: 768px) {
+  .uneke-advantages .row > div {
+    margin-bottom: 15px;
+    border: 0px;
+  }
+
+  .uneke-advantages .row > div:last-child {
+    margin-bottom: 0px;
+  }
+
+  .uneke-advantages .row > div {
+    border-right: 0px;
+    padding-bottom: 10px;
+    border-bottom: 1px solid #fff;
+  }
+}
